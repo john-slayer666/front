@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "github.copilot",
+        "visioncan.vscode-jss-snippets",
+        "azemoh.one-monokai",
+        "dmeenhuis.es7-react-js-snippets-with-semicolons",
+        "esbenp.prettier-vscode"
+    ]
+}
