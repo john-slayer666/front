@@ -40,10 +40,13 @@ const postSlice = createSlice({
       state.posts.items = action.payload;
       state.posts.status = 'loaded';
     },
-    [fetchPosts.rejected]: (state) => {
+    [fetchPosts.rejected]:(state, action) => {
       state.posts.items = [];
       state.posts.status = 'error';
+      state.posts.error = "Статья не может быть пустой";
     },
+
+
     // tags are
     [fetchTags.pending]: (state) => {
       state.tags.items = [];
