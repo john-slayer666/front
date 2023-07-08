@@ -66,7 +66,7 @@ export const AddPost = () => {
       navigate(`/posts/${_id}`);
     } catch (err) {
       console.warn(err);
-      alert('Error while posting');
+      alert(err);
     }
   };
 
